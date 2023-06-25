@@ -1,0 +1,136 @@
+@font-face {
+          font-family: fountain;
+          src: url("TheFountainofWishes.ttf");
+}
+* {
+          margin: 0;
+          padding: 0;
+          font-family: fountain;
+          text-align: center;
+
+}
+body{
+          background-color:#f1e5d5 ;
+}
+
+.navi-b{
+          position: fixed;
+          z-index: 1000;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: auto;
+          background-color:  rgb(209, 206, 206);
+          padding: 2px;
+          
+         
+}
+.navis-1{
+          margin: 3px 20px -30px 0px;
+          text-align: right;
+}
+.navis-2{
+          display: flex;
+          justify-content: space-between;
+          align-items:baseline;
+          margin: 10px 0 0 0;
+}
+.new-logo{
+          width: 2.8125rem;
+          border-radius: 100%;
+          margin: 0 0 0 10px;
+}
+.bar-div{
+         text-align: right; 
+        
+}
+.bar{
+          margin: 0 10px 0 -5px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #0d192b;
+}
+
+.bar:hover{
+     color: rgba(56, 53, 2, 0.78);
+     text-decoration: none;
+     text-shadow: rgb(73, 69, 17, 0.78) 0.5px 0px 1px;
+     background-color: transparent;     
+}
+
+a:visited{
+          color: red;
+          text-decoration: none;
+          background-color: transparent;
+}
+
+a:focus-visible{
+          outline: #010e20 2px dotted;
+}
+.main{
+          margin: -80px auto;
+          justify-content: space-evenly;
+          padding: 5%;
+          display: flex;
+          position: relative;
+          top: 60px;
+}
+.josh-img{
+          margin: 30px 10px 32px 30px;
+          width: 31.25rem;
+          border-radius: 5% 5% 8% 8%;
+}
+.main-1{
+          margin: 80px 0 0;
+}
+.main-2{
+          margin: 80px 10px;
+          padding: auto 20px;
+          font-size: 20px;
+}
+.main-2-sub{
+          margin: 5%;
+          text-align: justify;
+         line-height: 1.8rem;
+          width: 21.875rem;
+}
+.btn-resume{
+          color: #444444;
+          background-color: transparent;
+          font-family:Verdana, Geneva, Tahoma, sans-serif ;
+          font-size: 30px;
+          font-weight: lighter;
+          padding: 15.75px 50px;
+          margin: 45px 0 0 ;
+          width: 95%;
+          justify-content: center;
+          border:#929390 solid 2px;
+          border-radius: 10px;
+}
+.btn-resume:hover{
+          border:  rgba(47, 48, 55, 0.35) solid 6px;
+
+}
+/* -------======responsiveness=======--------- */
+@media screen and (max-width:1000px) {
+          .main{
+                   display: block;
+          }
+          .josh-img{
+                    margin: 30px auto 30px;
+          }
+          .main-2{
+                    margin: 40px 0 0 ;
+                    padding: 0;
+
+          }
+          .main-2-sub{
+                    margin:10px auto;
+                    width: auto;
+          }
+          .btn-resume{
+                    margin: 45px 0 0 ;
+                    width: 95%;
+          }
+}
+  
