@@ -1,0 +1,58 @@
+@font-face {
+          font-family: fountain;
+          src: url("TheFountainofWishes.ttf");
+}
+@font-face {
+     font-family: kimberly;
+     src: url("./kimberly/kg-strawberry-limeade.ttf");
+     src: url("./kimberly/KGFonts-TOU.txt");
+     src: url("./kimberly/KGStrawberryLimeade.ttf");
+}
+
+* {
+          margin: 0;
+          padding: 0;
+          letter-spacing: 0.4px;
+
+}
+body{
+          background-color:#f1e5d5 ;
+          font-family: fountain;
+          color: #0f0f0f;
+}
+
+#project-main{
+          margin: 12px;
+}
+
+.project-div{
+          width: 85%;
+}
+
+.omni-img{
+          width: 500px;
+          border: 3px #f1e5d5 solid;
+          border-radius: 5%;
+          margin-bottom: 20px ;
+}
+
+.visit-btn{
+          text-decoration: none;
+          color: #444444;
+          background-color: transparent;
+          font-family:Verdana, Geneva, Tahoma, sans-serif ;
+          font-size: 23px;
+          font-weight: lighter;
+          padding: 15.75px 50px;
+          margin: 45px 0 0 ;
+          width: 95%;
+          justify-content: center;
+          border:#929390 solid 2px;
+          border-radius: 10px;
+
+
+}
+.visit-btn:hover{
+          border:  rgba(47, 48, 55, 0.35) solid 6px;
+
+}
