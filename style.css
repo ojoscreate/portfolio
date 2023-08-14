@@ -81,7 +81,7 @@ body{
 }
 
 a:visited{
-          color: red;
+          color: gray;
           text-decoration: none;
           background-color: transparent;
 }
