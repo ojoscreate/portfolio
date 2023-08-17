@@ -166,7 +166,7 @@ a:focus-visible{
      
 }
 .foot-div-sub-1{
-     width:40.75rem;
+     width:42rem;
      text-align: right;
      margin:0 -40px 40px 10px;
 
@@ -224,9 +224,9 @@ a:focus-visible{
      color: #223c64;
      text-decoration: none;
      text-align: right;
-     width: 31.25rem;
+     width: 42rem;
      font-size: 28px;
-     margin: 5px;
+     margin: 5px 0;
 }
 .sub1:hover{
      font-size: 29px;
