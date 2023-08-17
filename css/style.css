@@ -20,6 +20,7 @@ body{
           background-color:#f1e5d5 ;
           font-family: fountain;
           color: #0f0f0f;
+          justify-self: center;
 }
 
 .navi-b{
@@ -58,14 +59,14 @@ body{
 }
 
 .new-logo{
-          width: 1.9rem;
+          width: 2rem;
           border-radius: 100%;
           margin: 0 0 0 10px;
           border: #2e2e3f solid 4px;
 }
 .new-logo-name{
      display: inline;
-     font-size: 35px;
+     font-size: 32px;
      margin: auto 0 auto -2px;
 }
 .bar-div{
@@ -87,18 +88,25 @@ body{
      font-size: 27px;     
 }
 
-a:visited{
+.bar:visited{
           color: rgb(104, 104, 104);
           text-decoration: none;
           background-color: transparent;
 }
+.bar:link{
+     color: #0d192b;
+     background-color: transparent;
+     text-decoration: none;
+}
+
 
 a:focus-visible{
           outline: #010e20 2px dotted;
 }
-.main{
+
+#main{
           width: 90%;
-          margin: -30px auto;
+          margin: -10px auto -30px;
           justify-content: center;
           padding: 5%;
           display: flex;
@@ -148,7 +156,7 @@ a:focus-visible{
 /* =------=======FOOOTER=======--- */
 .foot{
      margin: 2px auto 0;
-     color: rgba(0, 184, 147, 0.842);
+     color: #223c64;
    
 }
 .foot-div{
@@ -177,30 +185,33 @@ a:focus-visible{
      font-family:fantasy;
 
 }
-.btn-con{
-     
-     color: rgba(0, 184, 147, 0.842);
-     background-color: transparent;
-     text-shadow: rgba(2, 102, 82, 0.842) 1.5px 1px 0.5px;
+.con-div{
+     margin: 45px 0 0 ;
+}
+.con-btn{
+    
+     color: #223c64;
+     margin: 45px 0 0 ;
+     padding: 15.75px 50px;
+     text-shadow: #0e1e37;
      font-family:Verdana, Geneva, Tahoma, sans-serif ;
      font-size: 28px; 
-     padding: 15.75px 50px;
-     margin: 45px 0 0 ;
-     width: 20.45rem;
+     /* width: 20.45rem; */
      justify-content: center;
-     border:rgba(0, 184, 147, 0.842) solid 2px;
+     border:  #223c64 solid 4px;
+     border: solid 2px;
      border-radius: 10px;
-     box-shadow:24px 19px 5px rgba(0, 184, 147, 0.842) ;
+     box-shadow:24px 19px 5px #03193c;
+     text-decoration: none;
 
 }
-.btn-con:hover{
-     border:  rgba(0, 184, 147, 0.55) solid 4px;
-     
+.con-btn:hover{
+     border:  #223c64 solid 4px;
+     box-shadow: 20px 1px 10px #042049;
      font-family: fountain;
-     font-size: 43px;
+     font-size: 40px;
      word-spacing: 8px;
-     font-weight: lighter;
-     /* box-shadow:24px 19px 5px rgba(0, 184, 147, 0.842) ; */
+     font-weight: light;
 
 }
 .foot-sub1{
@@ -209,7 +220,7 @@ a:focus-visible{
 }
 .sub{
      font-size: 20px;
-     color: rgba(0, 184, 147, 0.69);
+     color: #223c64;
      text-decoration: none;
      text-align: right;
      width: 31.25rem;
@@ -217,6 +228,7 @@ a:focus-visible{
 }
 .sub:hover{
      font-size: 29px;
+     border: #223c64 solid 0 3px 2px;
 }
 .lasty-foot{
     margin-top: 10px;

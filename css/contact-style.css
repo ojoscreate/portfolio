@@ -1,0 +1,22 @@
+@font-face {
+          font-family: fountain;
+          src: url("TheFountainofWishes.ttf");
+}
+@font-face {
+     font-family: kimberly;
+     src: url("./kimberly/kg-strawberry-limeade.ttf");
+     src: url("./kimberly/KGFonts-TOU.txt");
+     src: url("./kimberly/KGStrawberryLimeade.ttf");
+}
+
+* {
+          margin: 0;
+          padding: 0;
+          letter-spacing: 0.4px;
+
+}
+body{
+          background-color:#f1e5d5 ;
+          font-family: fountain;
+          color: #0f0f0f;
+}
