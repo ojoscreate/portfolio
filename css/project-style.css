@@ -19,21 +19,53 @@ body{
           background-color:#f1e5d5 ;
           font-family: fountain;
           color: #0f0f0f;
+          text-align: center;
 }
 
-#project-main{
-          margin: 12px;
+.project-main{
+          margin: 30px auto;
+          padding: 30px 20px;
+          font-size: 20px;
+          text-align: center;
+          
 }
 
-.project-div{
-          width: 85%;
+.project{
+          display: inline-flex;
+          justify-content: space-evenly;
+          flex-wrap:wrap;
+          margin: 10px;
+          padding: 4px 10px;
+
 }
 
-.omni-img{
-          width: 500px;
+.project-div-1{
+     margin: 20px;
+     text-align: left; 
+     text-align: justify;
+     line-height: 1.8rem;
+     width: 25.875rem;
+     font-size: 20px;
+     float: left;
+}
+
+.project-div-2{
+     margin: 20px;
+     text-align: left; 
+     text-align: justify;
+     line-height: 1.8rem;
+     width: 25.875rem;
+     font-size: 20px;
+     float: right;
+}
+
+.pro-img{
+          width: 31.26rem;
           border: 3px #f1e5d5 solid;
-          border-radius: 5%;
-          margin-bottom: 20px ;
+          border-radius: 8%;
+          margin: 5px auto 20px;
+          text-align: center;
+          
 }
 
 .visit-btn{
@@ -55,4 +87,21 @@ body{
 .visit-btn:hover{
           border:  rgba(47, 48, 55, 0.35) solid 6px;
 
+}
+@media (max-width:1024px) {
+     .project-main{
+          width: 90%;
+     }
+
+
+     .project-div-1{
+          clear: right;
+     }
+
+     .project-div-2{
+          margin: 20px -20px 20px 20px;
+          clear: left;
+          float: left;
+     }
+     
 }
