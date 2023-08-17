@@ -166,7 +166,7 @@ a:focus-visible{
      
 }
 .foot-div-sub-1{
-     width:39.75rem;
+     width:40.75rem;
      text-align: center;
      margin:0 -40px 40px 10px;
 
@@ -217,6 +217,7 @@ a:focus-visible{
 .foot-sub1{
      display:flex;
      flex-direction: column;
+     
 }
 .sub{
      font-size: 20px;
