@@ -255,7 +255,7 @@ a:focus-visible{
 
 /* -------======responsiveness=======--------- */
 @media screen and (max-width:1000px) {
-          .main{
+          #main{
                    display: block;
           }
           .josh-img{
@@ -326,7 +326,7 @@ a:focus-visible{
                
           }
 
-          .btn-con{
+          #con-btn{
                margin: 35px 0 0 ;
                width: 95%;
           }
