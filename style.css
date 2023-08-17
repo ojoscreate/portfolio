@@ -57,9 +57,15 @@ body{
 }
 
 .new-logo{
-          width: 2.8125rem;
+          width: 1.9rem;
           border-radius: 100%;
           margin: 0 0 0 10px;
+          border: #2e2e3f solid 4px;
+}
+.new-logo-name{
+     display: inline;
+     font-size: 35px;
+     margin: auto 0 auto -2px;
 }
 .bar-div{
          text-align: right; 
@@ -81,7 +87,7 @@ body{
 }
 
 a:visited{
-          color: gray;
+          color: rgb(104, 104, 104);
           text-decoration: none;
           background-color: transparent;
 }
