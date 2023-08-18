@@ -32,10 +32,8 @@ body{
 
 .project{
           display:flex;
-          justify-content: space-around;
+          justify-content: space-evenly;
           /* flex-direction: column; */
-          width: 70%;
-          columns:auto;
           flex-wrap:wrap;
           margin: 10px;
           padding: 4px 10px;
