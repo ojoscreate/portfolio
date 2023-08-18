@@ -116,40 +116,47 @@ a:focus-visible{
 }
 .josh-img{
           margin: 30px 10px 32px 30px;
-          width: 38.25rem;
+          width: 30.25rem;
+          /* height: 35rem; */
           border-radius: 5% 5% 8% 8%;
 }
 .main-1{
           margin: 80px 0 0;
 }
 .main-2{
-          margin: 80px 10px;
-          padding: auto 20px;
+          margin: 80px 10px 80px -20px;
+          padding: 30px 10px;
           font-size: 20px;
+          width: 25.875rem;
 }
 .main-2-sub{
           margin: 5%;
           text-align: justify;
          line-height: 1.8rem;
-          width: 25.875rem;
           font-size: 20px;
 }
 
+.resume-div{
+      margin: 45px 0 0 ;
+      width: 95%;
+}
+
 .btn-resume{
+          text-decoration: none;
           color: #444444;
           background-color: transparent;
           font-family:Verdana, Geneva, Tahoma, sans-serif ;
           font-size: 30px;
           font-weight: lighter;
           padding: 15.75px 50px;
-          margin: 45px 0 0 ;
-          width: 95%;
           justify-content: center;
           border:#929390 solid 2px;
           border-radius: 10px;
+          width: 100%;
 }
 .btn-resume:hover{
           border:  rgba(47, 48, 55, 0.35) solid 6px;
+          text-decoration: none;
 
 }
 
@@ -161,20 +168,45 @@ a:focus-visible{
 }
 .foot-div{
      display: flex;
-     justify-content:space-around;
+     justify-content:space-evenly;
      margin: auto;
+     /* width: 1200px; */
      
 }
 .foot-div-sub-1{
-     width:42rem;
-     text-align: right;
-     margin:0 -40px 40px 10px;
+     /* width: 2rem; */
+     /* text-align: right; */
+     margin:0 -10px 40px 10px;
+}
 
+.foot-sub1{
+     display:flex;
+     flex-direction: column;
+     /* width:20%; */
+     margin: auto -30px;
+     
+}
+
+.rule{
+     margin: 30px auto;
+     width: 20%;
+     border: dotted  3px;
+     border-bottom: none;
+     text-shadow: 0 0 0 10px;
+     text-align: center;
+
+}
+
+.lasty-foot{
+    margin-top: 10px;
+    font-size: 28px;
+   
+    
 
 }
 
 .foot-div-sub-2{
-     width:40.75rem;
+     width:30.75rem;
      text-align: center;
      margin:0 10px 40px -20px;
 
@@ -214,11 +246,7 @@ a:focus-visible{
      font-weight: light;
 
 }
-.foot-sub1{
-     display:flex;
-     flex-direction: column;
-     
-}
+
 .sub{
      font-size: 20px;
      color: #223c64;
@@ -236,22 +264,8 @@ a:focus-visible{
      border-radius: 20%;
 
 }
-.lasty-foot{
-    margin-top: 10px;
-    font-size: 28px;
-   
-    
 
-}
-.rule{
-     margin: 30px auto;
-     width: 20%;
-     border: dotted  3px;
-     border-bottom: none;
-     text-shadow: 0 0 0 10px;
-     text-align: center;
 
-}
 
 /* -------======responsiveness=======--------- */
 @media screen and (max-width:1000px) {
