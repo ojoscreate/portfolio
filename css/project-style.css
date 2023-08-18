@@ -104,6 +104,10 @@ h1{
           width: 90%;
      }
 
+     .project{
+          flex-direction: column;
+          flex-wrap: wrap;
+     }
 
      .project-div-1{
           clear: right;
