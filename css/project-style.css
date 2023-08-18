@@ -33,6 +33,7 @@ body{
 .project{
           display: inline-flex;
           justify-content: space-evenly;
+          columns: 2cap;
           flex-wrap:wrap;
           margin: 10px;
           padding: 4px 10px;
