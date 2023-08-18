@@ -107,6 +107,7 @@ h1{
      .project{
           flex-direction: column;
           flex-wrap: wrap;
+          text-align: center;
      }
 
      .project-div-1{
