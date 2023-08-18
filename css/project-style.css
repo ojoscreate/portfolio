@@ -47,7 +47,7 @@ body{
      line-height: 1.8rem;
      width: 25.875rem;
      font-size: 20px;
-     /* float: left; */
+     float: left;
 }
 
 .project-div-2{
@@ -57,7 +57,7 @@ body{
      line-height: 1.8rem;
      width: 25.875rem;
      font-size: 20px;
-     /* float: right; */
+     float: right;
 }
 
 .pro-img{
