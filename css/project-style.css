@@ -21,8 +21,93 @@ body{
           color: #0f0f0f;
           text-align: center;
 }
-h1{
+h1,h2{
      margin: 15px 2px;
+}
+
+
+.navi-b{
+     position: fixed;
+     z-index: 1000;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: auto;
+     background-color:  rgb(209, 206, 206);
+     padding: 8px 5px 5px;
+
+     
+    
+}
+.navis-1{
+     margin: 3px 20px -20px 0px;
+     text-align: right;
+}
+.navis-2{
+     display: flex;
+     justify-content: space-between;
+     align-items:baseline;
+     margin: 10px 0 0 0;
+}
+.mail-link{
+text-decoration: none;
+font-size: 19px;
+color: inherit;
+}
+
+.mail-link:hover{
+color: #2e2e3f;
+font-size: 20.5px;
+text-shadow: #272827 0  0 0.5px;
+}
+
+.new-logo{
+     width: 2.5rem;
+     border-radius: 100%;
+     margin: 0 0 0 10px;
+     border: #2e2e3f solid 4px;
+}
+.new-logo-name{
+display: inline;
+font-size: 32px;
+margin: auto 0 auto -2px;
+}
+.bar-div{
+    text-align: right; 
+   
+}
+.bar{
+     margin: 0 10px 0 -5px;
+     text-decoration: none;
+     font-size: 25px;
+     color: #0d192b;
+}
+
+.bar:hover{
+color: rgba(41, 39, 1, 0.78);
+text-decoration: none;
+text-shadow: rgba(23, 23, 17, 0.78) 0.5px 0px 1px;
+background-color: transparent;
+font-size: 27px;     
+}
+
+.bar:visited{
+     color: rgb(104, 104, 104);
+     text-decoration: none;
+     background-color: transparent;
+}
+.bar:link{
+color: #0d192b;
+background-color: transparent;
+text-decoration: none;
+}
+
+
+a:focus-visible{
+     outline: #010e20 2px dotted;
+}
+#main{
+     padding: 2%;
 }
 
 .project-main{
