@@ -123,12 +123,29 @@ a:focus-visible{
 .main-list{
      color: inherit;
      list-style: none ; 
+     margin: 15px 0;
      
 }
 .list{
      color: inherit;
      list-style: none ; 
      margin: 5px 20px;
+}
+
+.con-link{
+     color:#444444;
+}
+
+.con-link:hover{
+     color:#4c4343 ;
+     font-size: 25px;
+     -moz-text-decoration-style: none;
+     text-decoration: none;
+     margin: 3px;
+     padding: 3px;
+     border-radius: 50%;
+     border-bottom: #4c4343 dotted 1px;
+    
 }
 
 .line{
@@ -139,14 +156,45 @@ a:focus-visible{
      align-content: normal;
      justify-content:initial;
      text-align: center;
-     column-gap: 0.3rem;
-     width: 20rem;
-}
-.line:before,.line:after {
-  content: \"\\2014\";
+     column-gap: 0.4rem;
+     width: 20rem;;
 }
 
+.line1{
+     border: #929390 dotted 3px;
+     border-bottom: none;
 
+}
+
+.line2{
+     width: 5rem;
+}
+
+.locay-span{
+     margin-right: 5px;
+     font-size:22px ;
+     font-weight: bold;
+}
+
+.feed-rule{
+     border: #d5cbbf solid 0.2px;
+     border-bottom: none;
+     font-weight: lighter;
+     /* color:#d5cbbf ; */
+     margin: 20px 0;
+}
+
+.feedback{
+     margin:25px auto 20px;
+}
+
+#feedback-mes{
+     padding: 3%;
+     outline: none;
+     border: none;
+     border-radius: 10px;
+     margin: 10px auto;
+}
 
 .home-div{
      margin: 30px 0 25px ;
@@ -174,4 +222,15 @@ a:focus-visible{
 .home-btn:hover{
           border:  rgba(47, 48, 55, 0.35) solid 6px;
 
+}
+
+@media (max-width:1024px) {
+
+     #main{
+          width: 95%;
+          margin: 38px auto;
+     }
+     .line1,.line{
+          width: 95% ;
+     }
 }
