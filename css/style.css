@@ -110,13 +110,13 @@ a:focus-visible{
           justify-content: center;
           padding: 5%;
           display: flex;
-          column-gap: 10rem;
+          column-gap: 7rem;
           position: relative;
      
 }
 .josh-img{
           margin: 30px 10px 32px 30px;
-          width: 30.25rem;
+          width: 28.25rem;
           /* height: 35rem; */
           border-radius: 5% 5% 8% 8%;
 }
@@ -277,6 +277,8 @@ a:focus-visible{
 @media screen and (max-width:1000px) {
           #main{
                    display: block;
+                   text-align: center;
+                   width: 95%;
           }
           .josh-img{
                     margin: 30px auto 30px;
@@ -324,7 +326,7 @@ a:focus-visible{
                display: flex;
                justify-content:space-between;
                flex-direction: row;
-               /* margin: 0 30px ; */
+               margin: auto;
 
                
           }
