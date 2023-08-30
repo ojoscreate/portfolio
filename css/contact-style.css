@@ -254,11 +254,14 @@ a:focus-visible{
      }
 
      .main-div{
-          padding: 10%;
+          padding: 10% 5%;
           width: 95%;
           margin: 40px auto;
      }
      .line1,.line{
           width: 95% ;
+     }
+     #feedback-mes{
+          width: auto;
      }
 }
