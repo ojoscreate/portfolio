@@ -110,7 +110,7 @@ a:focus-visible{
      margin: 20px auto 10px;
      padding: 6%;
      text-align: center;
-     width: 43.75rem;
+     /* width: 43.75rem; */
      justify-content: center;
 
 
@@ -253,11 +253,11 @@ a:focus-visible{
      }
 
      #main{
-          width: 80%;
           padding: 10%;
+          width: 95%;
           margin: 40px auto;
      }
      .line1,.line{
-          /* width: ; */
+          width: 95% ;
      }
 }
