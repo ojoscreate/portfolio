@@ -249,9 +249,9 @@ a:focus-visible{
 @media (max-width:1024px) {
 
      #main{
-          padding: 3%;
+          padding: 10%;
           width: 95%;
-          margin: 38px auto;
+          margin: 40px auto;
      }
      .line1,.line{
           width: 95% ;
