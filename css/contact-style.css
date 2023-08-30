@@ -258,6 +258,6 @@ a:focus-visible{
           margin: 40px auto;
      }
      .line1,.line{
-          width: 95% ;
+          /* width: ; */
      }
 }
