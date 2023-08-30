@@ -248,6 +248,10 @@ a:focus-visible{
 
 @media (max-width:1024px) {
 
+     .navi-b{
+          position: fixed;
+     }
+
      #main{
           padding: 10%;
           width: 95%;
