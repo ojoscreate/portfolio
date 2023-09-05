@@ -291,10 +291,13 @@ a:focus-visible{
                     padding: 0;
 
           }
+          h1{
+               font-size: 45px;
+          }
           .main-2-sub{
                     margin:10px auto;
                     width: auto;
-                    font-size: 30px;
+                    font-size: 35px;
           }
           .btn-resume{
                     margin: 45px 0 0 ;
