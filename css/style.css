@@ -337,12 +337,26 @@ a:focus-visible{
                
           }
 
+
           .sub{
                margin: 20px 20px 0;
                width: 31.25rem;
                font-size: 28px;
                text-align: center;
           }
+
+          .sub1{
+               font-size: 40px;
+          }
+          .sub1:hover{
+               font-size: 29px;
+               border-bottom: 3px #223c64 solid ;
+               margin: 0 10px 12px;
+               padding: 5px;
+               border-radius: 20%;
+          
+          }
+          
           .lasty-foot{
                margin-bottom: 0;
           }
