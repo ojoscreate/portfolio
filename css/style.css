@@ -280,7 +280,6 @@ a:focus-visible{
                    display: block;
                    text-align: center;
                    width: 95%;
-                   font-size: 25px;
           }
           .josh-img{
                     margin: 30px auto 30px;
@@ -297,6 +296,9 @@ a:focus-visible{
           .main-2-sub{
                     margin:10px auto;
                     width: auto;
+                    margin: 5%;
+                    text-align: justify;
+                    line-height: 1.8rem;
                     font-size: 35px;
           }
           .btn-resume{
