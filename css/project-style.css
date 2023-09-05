@@ -190,10 +190,10 @@ a:focus-visible{
           width: 90%;
      }
      h2{
-          font-size: 40px;
+          font-size: 30px;
      }
      p{
-          font-size: 35px;
+          font-size: 25px;
      }
      .project{
           flex-direction: column;
