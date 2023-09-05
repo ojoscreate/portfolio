@@ -189,7 +189,12 @@ a:focus-visible{
      .project-main{
           width: 90%;
      }
-
+     h2{
+          font-size: 40px;
+     }
+     p{
+          font-size: 35px;
+     }
      .project{
           flex-direction: column;
           flex-wrap: wrap;
