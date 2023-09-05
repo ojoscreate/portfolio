@@ -262,6 +262,18 @@ a:focus-visible{
           width: 95% ;
      }
      #feedback-mes{
-          width: auto;
+          width: 400px;
+     }
+     .feed-form{
+          width: 400px;
+     }
+}
+@media (max-width:450px) {
+     
+     .feed-form{
+          width: 400px;
+     }
+     #feedback-mes{
+          width: 400px;
      }
 }
