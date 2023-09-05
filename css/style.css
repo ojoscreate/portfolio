@@ -276,6 +276,9 @@ a:focus-visible{
 
 /* -------======responsiveness=======--------- */
 @media screen and (max-width:1000px) {
+     body{
+          width: auto;
+     }
           #main{
                    display: block;
                    text-align: center;
