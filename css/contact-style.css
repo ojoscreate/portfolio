@@ -197,12 +197,13 @@ a:focus-visible{
      margin:25px auto 20px;
 }
 
-#feedback-mes{
+.feedback-mes{
      padding: 3%;
      outline: none;
      border: none;
      border-radius: 10px;
      margin: 10px auto;
+     width: auto;
 }
 
 .submit-btn{
@@ -211,7 +212,8 @@ a:focus-visible{
      background-color: transparent;
      font-family:Verdana, Geneva, Tahoma, sans-serif ;
      font-size: 18px;
-     font-weight: lighter;
+     font-weight: normal;
+     text-shadow: #152237;
      width: auto;
      margin: 10px;
      padding: 10px 20px;
@@ -249,6 +251,7 @@ a:focus-visible{
 
 @media (max-width:1024px) {
 
+
      .navi-b{
           position: fixed;
      }
@@ -261,7 +264,7 @@ a:focus-visible{
      .line1,.line{
           width: 95% ;
      }
-     #feedback-mes{
+     .feedback-mes{
           width: 400px;
      }
      .feed-form{
@@ -273,7 +276,7 @@ a:focus-visible{
      .feed-form{
           width: 400px;
      }
-     #feedback-mes{
+     .feedback-mes{
           width: 400px;
      }
 }

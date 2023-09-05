@@ -147,7 +147,8 @@ a:focus-visible{
           background-color: transparent;
           font-family:Verdana, Geneva, Tahoma, sans-serif ;
           font-size: 30px;
-          font-weight: lighter;
+          text-shadow: #152237;
+          font-weight: normal;
           padding: 15.75px 50px;
           justify-content: center;
           border:#929390 solid 2px;
